@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url("/resources/css/header.css");
+@import url("/resources/css/typing.css");
+@import url("/resources/css/about.css");
+@import url("/resources/css/skills.css");
+@import url("/resources/css/project.css");
+@import url("/resources/css/login_layer.css");
+
+*{
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#wrap{
+	margin: 0;
+	padding: 0;
+	display: grid;
+}
+
+
+/* -브라우저별 벤터프리픽스 
+
+1) 크롬 : -webkit-
+
+2) 사파리 : -webkit-
+
+3) 파이어폭스 : moz- (mozila 라는 단체가 파이어폭스를 만들었기 때문에)
+
+4) 오페라 : -o-, -webkit-
+
+5) 익스플로러 : -ms- 
+
+
+- 사용방법 : 사용하는 속성이나 태그 앞에 달아준다. 
+
+
+
+ex) 
+
+border-radius : 10px의 경우 
+-webkit-border-radius : 10px;
+
+-moz-border-radius : 10px; 
+
+-o-border-radius : 10px; */

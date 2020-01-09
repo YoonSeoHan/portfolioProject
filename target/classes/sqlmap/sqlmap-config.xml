@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+    
+<configuration>
+	<!-- mybatis로 넘어오는 값이 NULL일 경우 공백으로 처리 -->
+	<!-- default값은 true이다. 아래와 같이 false 설정을 하면 모든 mapper xml의 cache 선언이 무효화가 됨 -->
+    <settings>
+    	<setting name="cacheEnabled" value="false" />
+        <setting name="jdbcTypeForNull" value="NULL" /> 
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.login.dao.LoginVo" alias="loginVo"/>
+	</typeAliases>
+
+</configuration>
+

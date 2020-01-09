@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+
+#main_bg {
+	background-image: url(../img/main_ml_Bg.jpg);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: :cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typing-txt{
+	display: none;
+}
+
+.typing {  
+    font-size: 4.4vmax;
+    color: white;
+    position: relative;
+	margin: 1rem 0;
+    animation-name: cursor;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+} 
+    
+@keyframes cursor{ 
+	0%{border-right: 5px solid #fff} 
+	50%{border-right: 5px solid transparent; }
+	100%{border-right: 5px solid #fff}
+}
